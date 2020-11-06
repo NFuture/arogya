@@ -1,4 +1,4 @@
-# arogya
+# Arogya
 
 A new Flutter application.
 
