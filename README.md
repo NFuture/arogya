@@ -1,10 +1,4 @@
-<img
-src=“./AROGYA2.png”
-raw=true
-alt=“Arogya”
-style=“margin-right: 10px;”
-/>
-
+![Arogya](/AROGYA2.png)
 A new Flutter application.
 
 ## Getting Started
