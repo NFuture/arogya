@@ -1,4 +1,9 @@
-# Arogya
+<img
+src=“AROGYA2.png”
+raw=true
+alt=“Arogya”
+style=“margin-right: 10px;”
+/>
 
 A new Flutter application.
 
