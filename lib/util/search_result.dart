@@ -1,5 +1,5 @@
 // import 'dart:ui';
-// import 'package:agrithon/model/Disease.dart';
+// import 'package:arogya/model/Disease.dart';
 // import 'dart:async';
 // import 'dart:convert';
 // import 'package:image_picker/image_picker.dart';
