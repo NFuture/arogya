@@ -68,4 +68,4 @@ def search():
             return jsonify({"sorry": "Sorry, no results! Please try again."})
 
 
-app.run()
+app.run(host="192.168.43.19")
