@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:arogya/model/Disease.dart';
 import 'package:arogya/util/DiseaseHandler.dart';
 

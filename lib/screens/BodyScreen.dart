@@ -24,14 +24,18 @@ class _BodyScreenState extends State<BodyScreen> {
   static List <Widget> _widgetOptions = <Widget>[
     homeScreen(),
     searchScreen(),
-    weatherScreen(),
+    WeatherScreen(),
     diseaseScreen(),
+  ];
+  
+  static List<String> titles=<String>[
+    "Demeter","Search","Weather","Diseases"
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Demeter",style: TextStyle(fontSize: 20.0,fontWeight: FontWeight.bold),),),
+      appBar: AppBar(title: Text(titles.elementAt(_selectedIndex),style: TextStyle(fontSize: 20.0,fontWeight: FontWeight.bold),),),
       body: SafeArea(
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
