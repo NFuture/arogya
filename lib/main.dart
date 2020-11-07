@@ -1,3 +1,4 @@
+import 'package:arogya/screens/wrapper.dart';
 import 'package:flutter/material.dart';
 import 'screens/BodyScreen.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: BodyScreen(),
+      home: Wrapper(),
     );
   }
 }

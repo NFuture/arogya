@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 
 
 class BodyScreen extends StatefulWidget {
+  final Function toggle;
+  BodyScreen({this.toggle});
   @override
   _BodyScreenState createState() => _BodyScreenState();
 }
@@ -29,13 +31,18 @@ class _BodyScreenState extends State<BodyScreen> {
   ];
   
   static List<String> titles=<String>[
-    "Demeter","Search","Weather","Diseases"
+    "Home","Search","Weather","Diseases"
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(titles.elementAt(_selectedIndex),style: TextStyle(fontSize: 20.0,fontWeight: FontWeight.bold),),),
+      appBar: AppBar(title: Text(titles.elementAt(_selectedIndex),style: TextStyle(fontSize: 20.0,fontWeight: FontWeight.bold),),
+
+        actions: [
+          FlatButton.icon(onPressed:(){widget.toggle();},icon: Icon(Icons.person), label: Text("LogOut"))
+        ],),
+
       body: SafeArea(
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
