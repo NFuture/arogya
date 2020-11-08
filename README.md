@@ -1,7 +1,7 @@
-![Arogya](/AROGYA2.png)
+![Arogya](/AROGYA.png)
 
 
-## Inroduction
+## About the application
 
 A mobile application that can provide farmers with various useful
 information and facilities. The application is written in flutter which makes it cross platform and
