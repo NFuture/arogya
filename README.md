@@ -1,16 +1,20 @@
 ![Arogya](/AROGYA2.png)
 
 
-## Getting Started
+## Inroduction
 
-This project is a starting point for a Flutter application.
+A mobile application that can provide farmers with various useful
+information and facilities. The application is written in flutter which makes it cross platform and
+the server is based on a flask, a python based framework.
 
-A few resources to get you started if this is your first Flutter project:
+The main feature of the application would be disease recognition through images. The user can
+simply take a picture of the afflicted crop and the application will determine which disease it is
+and suggest suitable methods. The image search is done using a Content Based Image Retrieval
+(CBIR) system written in python. This essentially forms the most important aspect of the
+application, enabling farmers to retrieve information through the universal medium of images.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# demeter" 
+Other features include a compendium listing out various diseases and pests and the best methods
+to counteract them. Another compendium have detailed analysis on crop rotation. It also
+shows weather reports, alerting of severe conditions, so that necessary steps can be taken. It will
+also contain a local news section, which reports on agricultural policies, signs of pests / disease,
+insights into the price of various crops.
